@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Educational Platform</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#videos">Video Lessons</a></li>
+            <li><a href="#downloads">Downloadable Files</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="videos">
+            <h2>Video Lessons</h2>
+
+            <!-- YouTube Video 1 -->
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                <p>Description of video lesson 1.</p>
+            </div>
+
+            <!-- YouTube Video 2 -->
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <p>Description of video lesson 2.</p>
+            </div>
+        </section>
+
+        <section id="downloads">
+            <h2>Downloadable Files</h2>
+
+            <!-- Google Drive File 1 -->
+            <a class="download-link" href="https://drive.google.com/file/d/GOOGLE_DRIVE_FILE_ID_1/view?usp=sharing" target="_blank" download>Download Lesson 1</a>
+
+            <!-- Google Drive File 2 -->
+            <a class="download-link" href="https://drive.google.com/file/d/GOOGLE_DRIVE_FILE_ID_2/view?usp=sharing" target="_blank" download>Download Lesson 2</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educational Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
